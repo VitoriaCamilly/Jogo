@@ -4,7 +4,7 @@
     display: flex;
 }
 
-img {
+.fundo {
     width: 100%;
     height: 100vh;
 }
@@ -25,6 +25,7 @@ img {
     display: grid;
     justify-content: center;
     align-items: center;
+    padding-top: 25vh;
 }
 
 .containerFundo {
@@ -37,7 +38,7 @@ button {
     font-family: luminari, fantasy;
     font-size: 35px;
     background-color: transparent;
-    color: white;
+    color: transparent;
     border: none;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #000;
@@ -52,24 +53,11 @@ button:hover{
     color: #000;
 }
 
-h1{
-    font-family: Stencil Std, fantasy;
-    font-size: 35px;
-    background-color: transparent;
-    color: black;
-    border: none;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-    font-size: 3em;
-    text-shadow: black -3px -3px;
-    margin: 15px;
-}
-
 .tabela{
     border: 1px black solid;
     display: grid;
     min-height: 20px;
-    margin-right: 5vw;
+    margin-right: 35vw;
     margin-left: 10px;
 }
 
@@ -82,7 +70,7 @@ td {
     align-items: center;
     font-size: 20px;
     font-weight: 600;
-    color: white;
+    color: transparent;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 1px;
     font-family: Stencil Std, fantasy;
@@ -90,6 +78,7 @@ td {
 
 .ranking{
     display: grid;
+    padding-bottom: 25vh;
 }
 
 input {
@@ -106,4 +95,11 @@ input {
 ::-webkit-input-placeholder {
     color: white;
     font-size: 15px;
+ }
+
+ #titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
  }
