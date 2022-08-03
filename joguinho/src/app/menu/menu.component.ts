@@ -9,6 +9,12 @@ export class MenuComponent implements OnInit {
 
   constructor() { }
 
+  lista = [{
+    nome: "Camilly",
+    score: "2099"
+  }
+  ];
+
   ngOnInit(): void {
   }
 
